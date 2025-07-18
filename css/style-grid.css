@@ -1,0 +1,72 @@
+@font-face {
+    font-family: nazanin;
+    src: url(fonts/B-NAZANIN.TTF), url(fonts/IranNastaliq.ttf);
+
+}
+body {
+    font-family: nazanin;
+    /* direction: rtl; */
+}
+
+.container{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns:repeat(4,50px);
+    grid-template-rows: 50px 50px;
+    gap: 5px;
+
+   
+    /* grid-template-columns: [first] 25% [line2] 25% [line3]25% [line4] 25% [endcol];  */
+    /* grid-template-rows: [row1] 100px [row2] 100px [rowend]; */
+
+    /* grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer"; */
+    
+    /* justify-items:stretch; */
+    /* align-items: stretch; */
+    /* place-items: center; */
+
+    /* justify-content: center; */
+    /* align-content:space-between; */
+    /* place-content: center; */
+
+    /* grid-template:
+     [row1-start] "header header header header" 25px [row1-end]
+     [row2-start] "footer footer footer footer" 25px [row2-end]
+    / auto 50px 100px auto; */
+/* معادل دستور زیر */
+    /* grid-template-columns: auto  50px 100px auto;
+    grid-template-rows: [row1-start] 25px [row1-end row2-start] 25px [row2-end];
+    grid-template-areas: "header header header header"
+    "footer footer footer footer"; */
+
+
+    
+    height: 500px;
+
+}
+ .item1{
+    /* grid-column-start: line2;
+    grid-column-end: span 2;
+    grid-row-start:row1;
+    grid-row-end: span 1; */
+
+  
+
+    /* grid-area: header; */
+    /* line-height: 100px; */
+}
+/*.item6{
+    grid-area: footer;
+}
+.item5{
+    grid-area: sidebar;
+} */
+.item {
+    background-color:rgb(242, 161, 132);
+    /* border: 1px solid red; */
+}
+
+

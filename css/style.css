@@ -1,0 +1,18 @@
+@font-face {
+    font-family: nazanin;
+    src: url(fonts/B-NAZANIN.TTF) ,url(fonts/IranNastaliq.ttf);
+
+  }
+
+body{
+    font-family:nazanin ;
+    direction: rtl;
+
+}
+.item{
+  border: 1px solid green;
+  width: 100px ;
+  height: 100px;
+  margin: 5px;
+  text-align: center;
+}
